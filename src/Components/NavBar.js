@@ -15,53 +15,44 @@ const NavBar = () => {
                 <a className="nav-link active" aria-current="page" href="#">Inicio</a>
               </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Remeras y camisetas
+              <a className="nav-link dropdown-toggle" href="#" id="btnHombre" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Hombre
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Deportivas</a></li>
+                <li><a className="dropdown-item" href="#">Remeras y Camisetas</a></li>
+                <li><a className="dropdown-item" href="#">Buzos y Camperas</a></li>
+                <li><a className="dropdown-item" href="#">Shorts y Pantalones</a></li>
+                <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="#">Futbol</a></li>
                 <li><a className="dropdown-item" href="#">Basket</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Todo</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Buzos y Camperas
+              <a className="nav-link dropdown-toggle" href="#" id="btnMujer" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mujer
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Deportivas</a></li>
+                <li><a className="dropdown-item" href="#">Remeras y Camisetas</a></li>
+                <li><a className="dropdown-item" href="#">Buzos y Camperas</a></li>
+                <li><a className="dropdown-item" href="#">Shorts y Pantalones</a></li>
+                <li><hr className="dropdown-divider" /></li>
                 <li><a className="dropdown-item" href="#">Futbol</a></li>
                 <li><a className="dropdown-item" href="#">Basket</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Todo</a></li>
               </ul>
             </li>
             <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Shorts y Pantalones
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Deportivas</a></li>
-                <li><a className="dropdown-item" href="#">Futbol</a></li>
-                <li><a className="dropdown-item" href="#">Basket</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Todo</a></li>
-              </ul>
-            </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a className="nav-link dropdown-toggle" href="#" id="btnCalzados" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Calzados
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Deportivas</a></li>
+                <li><a className="dropdown-item" href="#">Runner</a></li>
                 <li><a className="dropdown-item" href="#">Futbol</a></li>
                 <li><a className="dropdown-item" href="#">Basket</a></li>
-                <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Todo</a></li>
               </ul>
-              </li>
+            </li>
+            <li className="nav-item dropdown">
+              <a className="nav-link active" aria-current="page" href="#">OutFit</a>
+            </li>
             </ul>
             <CartWidget />
           </div>

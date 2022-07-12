@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "titulo": "River Titular H",
+        "descripcion": "Camiseta Titular de River Plate Hombre",
+        "precio": 14999,
+        "stock": 10,
+        "categoria": "Hombre Futbol",
+        "marca": "Adidas",
+        "images": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fb618df403754fb1aad6ae93016c1dfd_9366/Camiseta_Local_River_Plate_21-22_Blanco_GB1301_01_laydown.jpg",
+        "rating": {"rate": 1, "count": 1}
+    },
+    {
+        "id": 2,
+        "titulo": "River Suplente H",
+        "descripcion": "Camiseta Suplente de River Plate Hombre",
+        "precio": 14999,
+        "stock": 15,
+        "categoria": "Hombre Futbol",
+        "marca": "Adidas",
+        "images": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6bc4cd1f28504e59b5b1ada90114a949_9366/camiseta-visitante-river-plate-21-22.jpg",
+        "rating": {"rate": 1, "count": 1}
+    },
+    {
+        "id": 3,
+        "titulo": "a3",
+        "descripcion": "b3",
+        "precio": 1,
+        "stock": 1,
+        "categoria": "c3",
+        "marca": "d3",
+        "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eb11816534c6473bb164adaa01691fc4_9366/Camiseta_Titular_Boca_Juniors_21-22_Azul_GA7545_01_laydown.jpg",
+        "rating": {"rate": 1, "count": 1}
+    },
+    {
+        "id": 4,
+        "titulo": "a4",
+        "descripcion": "b4",
+        "precio": 1,
+        "stock": 1,
+        "categoria": "c4",
+        "marca": "d4",
+        "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/85f4f67ca5e84cf0a38aae4d0182eead_9366/Tercera_Camiseta_Boca_Juniors_22-23_Amarillo_HB0517_01_laydown.jpg",
+        "rating": {"rate": 1, "count": 1}
+    },
+    {
+        "id": 5,
+        "titulo": "a5",
+        "descripcion": "b5",
+        "precio": 1,
+        "stock": 1,
+        "categoria": "c5",
+        "marca": "d5",
+        "images": ["url1","url2","url3"],
+        "rating": {"rate": 1, "count": 1}
+    }
+]
