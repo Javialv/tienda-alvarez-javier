@@ -45,7 +45,7 @@ const NavBar = () => {
                 Calzados
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Runner</a></li>
+                <li><a className="dropdown-item" href="#">Running</a></li>
                 <li><a className="dropdown-item" href="#">Futbol</a></li>
                 <li><a className="dropdown-item" href="#">Basket</a></li>
               </ul>
