@@ -1,5 +1,7 @@
 import React from 'react'
 
+//Recibe id, titulo, descripcion, precio e imagen y agrega un div con la card y los datos de cada articulo
+
 const Item = ({id,titulo,descripcion,precio,images}) => {
   return (
     <div className="row row-cols-1 row-cols-md-3 g-4">
