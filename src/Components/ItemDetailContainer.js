@@ -1,9 +1,11 @@
-import { getByTitle } from '@testing-library/react';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import productos from "../productos.json";
 import ItemDetail from './ItemDetail';
+import { useParams } from "react-router-dom";
 
 const ItemDetailContainer = () => {
+
+    let params = useParams();
 
     const [item, setItem] = useState([]);
 
@@ -12,16 +14,19 @@ const ItemDetailContainer = () => {
         const asyncMockProducto = new Promise(function (resolve) {
 
             setTimeout(() => {
-                resolve(productos[1])
-            }, 3000)
+                resolve(productos[params.id])
+            })
             
         })
         asyncMockProducto.then((item)=> setItem(item));
 
     }
 
-    getItem();
+    useEffect (()=> {
+        getItem()
+    }, []);
     
+
     return (
         
     <div>

@@ -1,6 +1,9 @@
 import React from 'react'
 import Item from './Item'
 
+
+//Recorre el arreglo pasado por props "items" que serian los productos hace un map y uno por uno llama a Item para que lo muestre
+
 const ItemList = ({ items }) => {
   return (
     <div>
