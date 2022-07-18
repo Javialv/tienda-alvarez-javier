@@ -13,18 +13,18 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/home">Inicio</Link>
+              <Link className="nav-link active" aria-current="page" to="/">Inicio</Link>
             </li>
 
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" id="btnHombre" role="button" data-bs-toggle="dropdown" aria-expanded="false">Hombre</a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><Link className="dropdown-item" to="/producto/Hombre/Remeraycamiseta">Remeras y Camisetas</Link></li>
-                <li><a className="dropdown-item" href="#">Buzos y Camperas</a></li>
-                <li><a className="dropdown-item" href="#">Shorts y Pantalones</a></li>
+                <li><Link className="dropdown-item" to="/producto/Hombre/RemerayCamiseta">Remeras y Camisetas</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Hombre/BuzosyCamperas">Buzos y Camperas</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Hombre/ShortsyPantalones">Shorts y Pantalones</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Futbol</a></li>
-                <li><a className="dropdown-item" href="#">Basket</a></li>
+                <li><Link className="dropdown-item" to="/producto/Hombre/Futbol">Futbol</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Hombre/Basket">Basket</Link></li>
               </ul>
             </li>  
 
@@ -33,12 +33,12 @@ const NavBar = () => {
                 Mujer
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Remeras y Camisetas</a></li>
-                <li><a className="dropdown-item" href="#">Buzos y Camperas</a></li>
-                <li><a className="dropdown-item" href="#">Shorts y Pantalones</a></li>
+                <li><Link className="dropdown-item" to="/producto/Mujer/RemerayCamiseta">Remeras y Camisetas</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Mujer/BuzosyCamperas">Buzos y Camperas</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Mujer/ShortsyPantalones">Shorts y Pantalones</Link></li>
                 <li><hr className="dropdown-divider" /></li>
-                <li><a className="dropdown-item" href="#">Futbol</a></li>
-                <li><a className="dropdown-item" href="#">Basket</a></li>
+                <li><Link className="dropdown-item" to="/producto/Mujer/Futbol">Futbol</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Mujer/Basket">Basket</Link></li>
               </ul>
             </li>
 
@@ -47,9 +47,9 @@ const NavBar = () => {
                 Calzados
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a className="dropdown-item" href="#">Running</a></li>
-                <li><a className="dropdown-item" href="#">Futbol</a></li>
-                <li><a className="dropdown-item" href="#">Basket</a></li>
+                <li><Link className="dropdown-item" to="/producto/Calzado/Running">Running</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Calzado/Futbol">Futbol</Link></li>
+                <li><Link className="dropdown-item" to="/producto/Calzado/Basket">Basket</Link></li>
               </ul>
             </li>
             </ul>

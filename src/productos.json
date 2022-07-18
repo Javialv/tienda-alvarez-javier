@@ -5,7 +5,7 @@
         "descripcion": "Camiseta Titular de River Plate Hombre",
         "precio": 14999,
         "stock": 10,
-        "categoria": ["Hombre","Futbol","Remeraycamiseta"],
+        "categoria": ["Hombre","Futbol","RemerayCamiseta"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/w_600,f_auto,q_auto/fb618df403754fb1aad6ae93016c1dfd_9366/Camiseta_Local_River_Plate_21-22_Blanco_GB1301_01_laydown.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -16,7 +16,7 @@
         "descripcion": "Camiseta Titular de Boca Junior Hombre",
         "precio": 14999,
         "stock": 15,
-        "categoria": ["Hombre","Futbol","Remeraycamiseta"],
+        "categoria": ["Hombre","Futbol","RemerayCamiseta"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eb11816534c6473bb164adaa01691fc4_9366/Camiseta_Titular_Boca_Juniors_21-22_Azul_GA7545_01_laydown.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -27,7 +27,7 @@
         "descripcion": "Camiseta Titular de Argentina Hombre",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Hombre","Futbol","Remeraycamiseta"],
+        "categoria": ["Hombre","Futbol","RemerayCamiseta"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d88ae2138faf49be8f74aeca012c62eb_9366/Camiseta_Titular_Argentina_22_Messi_Blanco_HL8425_01_laydown.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -38,7 +38,7 @@
         "descripcion": "Camiseta Titular de Argentina Hombre",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Hombre","Futbol","Remeraycamiseta"],
+        "categoria": ["Hombre","Futbol","RemerayCamiseta"],
         "marca": "Adidas",
         "images": "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw223a84f1/products/AD_FH8571/AD_FH8571-1.JPG",
         "rating": {"rate": 1, "count": 1}
@@ -49,7 +49,7 @@
         "descripcion": "Remera nike negra Hombre",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Remeraycamiseta","Hombre"],
+        "categoria": ["RemerayCamiseta","Hombre"],
         "marca": "Nike",
         "images": "https://celadasa.vteximg.com.br/arquivos/ids/171979-1000-1000/86F464-023-1.jpg?v=637406205102570000",
         "rating": {"rate": 1, "count": 1}
@@ -60,7 +60,7 @@
         "descripcion": "Buzo Puma negro para hombres",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Buzo","Hombre"],
+        "categoria": ["BuzosyCamperas","Hombre"],
         "marca": "Puma",
         "images": "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw9c6287e7/products/PU_847058-01/PU_847058-01-1.JPG",
         "rating": {"rate": 1, "count": 1}
@@ -71,7 +71,7 @@
         "descripcion": "Pantalon Adidas de colores para hombre",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Pantalon","Hombre"],
+        "categoria": ["ShortsyPantalones","Hombre"],
         "marca": "Adidas",
         "images": "https://static.dafiti.com.ar/p/adidasoriginals-3825-310939-1-product.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -82,7 +82,7 @@
         "descripcion": "Short Argentina blanco Adidas para hombre",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Short","Hombre"],
+        "categoria": ["ShortsyPantalones","Futbol","Hombre"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/72d4bd50e7634532a685ae2e015cc297_9366/Short_Argentina_Blanco_FL9020_01_laydown.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -93,7 +93,7 @@
         "descripcion": "Camiseta de Golden State Warriors Hombre",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Remeraycamiseta","Basket","Hombre"],
+        "categoria": ["RemerayCamiseta","Basket","Hombre"],
         "marca": "Nike",
         "images": "https://showsport.vtexassets.com/arquivos/ids/779096-800-auto?v=637844226895900000&width=800&height=auto&aspect=true",
         "rating": {"rate": 1, "count": 1}
@@ -104,7 +104,7 @@
         "descripcion": "Remera deportiva Verde Adidas para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Remeraycamiseta","Mujer"],
+        "categoria": ["RemerayCamiseta","Mujer"],
         "marca": "Adidas",
         "images": "https://cdn.solodeportes.com.ar/media/catalog/product/cache/7c4f9b393f0b8cb75f2b74fe5e9e52aa/1/0/100020dj2515001-1.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -115,7 +115,7 @@
         "descripcion": "Camiseta titular de Barcelona FC para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Remeraycamiseta","Mujer"],
+        "categoria": ["RemerayCamiseta","Mujer"],
         "marca": "Nike",
         "images": "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dw46b515c0/products/NI_AJ5748-456/NI_AJ5748-456-1.JPG",
         "rating": {"rate": 1, "count": 1}
@@ -126,7 +126,7 @@
         "descripcion": "Buzo deportivo negro para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Buzo","Mujer"],
+        "categoria": ["BuzosyCamperas","Mujer"],
         "marca": "Ebony",
         "images": "https://static.dafiti.com.ar/p/koxis-4147-293649-1-product.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -137,7 +137,7 @@
         "descripcion": "Campera deportiva rosa para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Campera","Mujer"],
+        "categoria": ["BuzosyCamperas","Mujer"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/6983207a64c64168b169adc5011777e2_9366/Campera_Tiro_Essentials_Rosa_HE7159_21_model.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -148,7 +148,7 @@
         "descripcion": "Short rosa puma para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Short","Mujer"],
+        "categoria": ["ShortsyPantalones","Futbol","Basket","Mujer"],
         "marca": "Puma",
         "images": "https://static.dafiti.com.ar/p/puma-8481-097878-1-product.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -159,7 +159,7 @@
         "descripcion": "Pantalon deportivo adidas para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Pantalon","Mujer"],
+        "categoria": ["ShortsyPantalones","Mujer"],
         "marca": "Adidas",
         "images": "https://static.dafiti.com.ar/p/adidas-9798-949729-1-product.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -170,7 +170,7 @@
         "descripcion": "Camiseta de los Lakers para mujer",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Remeraycamiseta","Mujer"],
+        "categoria": ["RemerayCamiseta","Basket","Mujer"],
         "marca": "Nike",
         "images": "https://static.dafiti.com.ar/p/nba-4690-254109-1-product.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -181,7 +181,7 @@
         "descripcion": "Zapatillas para runners amarilla",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Calzados"],
+        "categoria": ["Calzado","Hombre","Mujer","Running"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c3444dcff48845ee87f9ad6500e4845c_9366/Zapatillas_adidas_x_LEGO(r)_Sport_Pro_Amarillo_GW3009_01_standard.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -192,7 +192,7 @@
         "descripcion": "Botines Futbol 5 adidas naranja",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Calzados"],
+        "categoria": ["Calzado","Hombre","Mujer","Futbol"],
         "marca": "Adidas",
         "images": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/22fbb16c407f44558d19ae2f017b04bd_9366/nemeziz-19-sg.jpg",
         "rating": {"rate": 1, "count": 1}
@@ -203,7 +203,7 @@
         "descripcion": "Zapatillas basket nike",
         "precio": 1,
         "stock": 1,
-        "categoria": ["Calzados"],
+        "categoria": ["Calzado","Hombre","Mujer","Basket"],
         "marca": "Nike",
         "images": "https://www.dexter.com.ar/on/demandware.static/-/Sites-dabra-catalog/default/dwb6788b95/products/NI_DM1186-600/NI_DM1186-600-1.JPG",
         "rating": {"rate": 1, "count": 1}

@@ -6,7 +6,16 @@ import { useParams } from 'react-router-dom';
 
 const ItemListContainerFiltrado = () => {
 
-  
+  let params = useParams();
+
+  let productosFiltrados = [];
+
+  productos.map((el) => {
+    if (el.categoria.includes(params.categoria1.toString()) 
+        && el.categoria.includes(params.categoria2.toString())) {
+      productosFiltrados.push(el);
+    }
+  })
 
   const [loading, setLoading] = useState (true);
 
@@ -14,17 +23,7 @@ const ItemListContainerFiltrado = () => {
     setTimeout( ()=> {
       setLoading(false);
     }, 2000);
-  })
-
-  let params = useParams();
-
-  if ((params.categoria1.toString() == "Hombre") && (params.categoria2.toString() == "Remeraycamiseta")) {
-
-    
-    
-    console.log(params);
-
-  }
+  }) 
 
   return ( 
     <div>
@@ -34,7 +33,7 @@ const ItemListContainerFiltrado = () => {
       ) : (
         <>
           <div className="row row-cols-1 row-cols-md-3 g-4">
-            <ItemList items={productos} />
+            <ItemList items={productosFiltrados} />
           </div>
         </>
       )}
