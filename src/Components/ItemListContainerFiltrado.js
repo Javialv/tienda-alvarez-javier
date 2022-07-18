@@ -1,8 +1,12 @@
 import React, {useState, useEffect} from 'react';
 import ItemList from './ItemList';
 import productos from "../productos.json";
+import NavBar from './NavBar';
+import { useParams } from 'react-router-dom';
 
-const ItemListContainer = () => {
+const ItemListContainerFiltrado = () => {
+
+  
 
   const [loading, setLoading] = useState (true);
 
@@ -12,8 +16,19 @@ const ItemListContainer = () => {
     }, 2000);
   })
 
+  let params = useParams();
+
+  if ((params.categoria1.toString() == "Hombre") && (params.categoria2.toString() == "Remeraycamiseta")) {
+
+    
+    
+    console.log(params);
+
+  }
+
   return ( 
     <div>
+      <NavBar />
       {loading? (
         <img src = "https://c.tenor.com/hQz0Kl373E8AAAAj/loading-waiting.gif" width="70px" height = "70px" alt="Cargando" />
       ) : (
@@ -27,4 +42,4 @@ const ItemListContainer = () => {
   )
 }
 
-export default ItemListContainer
+export default ItemListContainerFiltrado

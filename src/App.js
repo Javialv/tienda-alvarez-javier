@@ -6,9 +6,7 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <nav className="navbar navbar-expand-lg bg-light">
         <NavBar />
-      </nav>
       <main>
         <Outlet />
         <ItemListContainer />
