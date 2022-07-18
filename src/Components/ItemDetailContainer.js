@@ -8,8 +8,6 @@ const ItemDetailContainer = () => {
 
     let params = useParams();
 
-    console.log(params);
-
     const [item, setItem] = useState([]);
 
     function getItem () {
