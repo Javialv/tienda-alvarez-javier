@@ -5,6 +5,7 @@ import App from './App';
 import "bootstrap";
 import ItemDetailContainer from './Components/ItemDetailContainer';
 import ItemListContainerFiltrado from './Components/ItemListContainerFiltrado';
+import Cart from './Components/Cart';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -14,6 +15,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/producto/:id" element={<ItemDetailContainer />} />
       <Route path="/producto/:categoria1/:categoria2" element={<ItemListContainerFiltrado />} />
+      <Route path="/carrito" element={<Cart />} />
     </Routes>
   </BrowserRouter>
 )

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from "react-router-dom";
 
 const ItemCount = ({stock, inicial, onAdd}) => {
 
@@ -14,7 +15,8 @@ const ItemCount = ({stock, inicial, onAdd}) => {
 
     const validarStock = () => {
         if (count <= stock) {
-            onAdd(count)
+            onAdd(count);
+            alert('Se agrego la compra al carrito');
         }
         else {
             alert (`No se puede agregar al carrito, ${count} supera el stock permitido`)
@@ -26,7 +28,8 @@ const ItemCount = ({stock, inicial, onAdd}) => {
             <h3>{count}</h3>
             <button onClick={disminuir}>-</button>
             <button onClick={aumentar}>+</button>
-            <button onClick={validarStock}>Agregar al carrito</button>
+            {" "} | {" "}
+            <Link className="btn btn-outline-danger" to="/carrito" onClick={validarStock} >Agregar al Carrito</Link>
         </div>
     );
 };
